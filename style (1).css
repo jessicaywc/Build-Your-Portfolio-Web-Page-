@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* create a header style. make sure the footer matches as well */
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f6bd60;
+  height: 170px;
+}
+
+/* create the layout to be in the center like the example */
+div {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: left
+}
+/* edit the image laybout to fit on the page*/
+.img-profile {
+  
+  max-width: 20rem;
+  max-height: auto;
+}
+/* needed to center my image, created a .center class*/
+.center {
+  display: block;
+  margin-left: 12%;
+  margin-right: 12%;
+  width: 25%;
+}
+
+
+hr{
+  border-width: 2px;
+}
+
+
+main{
+  margin-top: 100 px;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+ 
+h1{
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  margin: 10px;
+  text-align: center;
+  color:#f7ede2;
+  padding: 20px;
+}
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  margin: 10px;
+  text-align: center;
+  color:#84a59d;
+  padding: 20px;
+}
+
+ul, ol, p, {
+  text-align: left;
+  color: #e8e8e4
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size:50px
+}
+
+a {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+a:link    { color: navy;  }
+a:visited { color: green;   }
+a:hover   { color: purple; }
+a:active  { color: yellow;  }
+
+footer {
+  
+  bottom:0;
+  left: 0;
+  width: 100%;
+  background-color: #f6bd60;
+  color: #84a59d
+  height:10px
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  
+}
+
+
+.background-color {
+  background-color: #f8edeb
+}
+
+.font-color{
+  font-size: 20px;
+  text-align: center;
+  color: #e8e8e4;
+  height: 70px
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+
+  
