@@ -92,11 +92,11 @@ footer {
   
 }
 
-
+/* create a class for the backround-color */
 .background-color {
   background-color: #f8edeb
 }
-
+/* create class for the font-color to be used in the header and footer*/
 .font-color{
   font-size: 20px;
   text-align: center;
